@@ -70,7 +70,7 @@ public class Control : MonoBehaviour
         arr[2] = "박두팔";
         arr[3] = "안선생";
         arr[4] = "함수빈";
-     
+
 
         for (int i = 0; i < 5; i++)
         {
@@ -84,15 +84,16 @@ public class Control : MonoBehaviour
             Debug.Log("배열의 값" + j + ": " + arr2[j]);
         }
 
-        { 
-        int[,] samsam = { { 1, 2, 3}, { 4, 5, 6}, {7, 8, 9} };
-        Debug.Log(samsam[3, 2]);
-        
+        {
+            int[,] samsam = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+            Debug.Log(samsam[3, 2]);
+
         }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        /* Update is called once per frame
+        void Update()
+        {
+        }
+            */
     }
 }
